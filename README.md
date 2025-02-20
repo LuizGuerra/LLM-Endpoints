@@ -77,7 +77,7 @@ If you receive something else, make sure your account API key was added to the `
 | Company | Model | Repository Documentation | Official Documentation | Status |
 |----------|----------|----------|----------|----------|
 | OpenAI | ChatGPT | [open-ai.md](./model-documentation/open-ai.md) | [OpenAI API Reference](https://platform.openai.com/docs/api-reference/introduction) | ✅ |
-| Google | Gemini | [gemini.md](./model-documentation//google-gemini.md) | [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | WIP |
+| Google | Gemini | [gemini.md](./model-documentation//google-gemini.md) | [Gemini API Docs](https://ai.google.dev/gemini-api/docs) | ✅ |
 | DeepSeek AI | DeepSeek | [deepseek.md](./model-documentation/deep-seek.md) | [DeepSeek API Docs](https://api-docs.deepseek.com/) | To be done |
 
 
@@ -113,7 +113,6 @@ Here, the problem lies in the venv getting confused with existing packages in th
 
 
 ### Todo:
-- [ ] DeepSeek access
 - [ ] Conversation with memory, one request at a time
 - [ ] Conversation with memory, multiple requests at a time
 - [ ] [Test and fix the stream feature](https://cookbook.openai.com/examples/how_to_stream_completions)
@@ -121,4 +120,4 @@ Here, the problem lies in the venv getting confused with existing packages in th
 <!-- - [ ] Separate file storage to it's own class -->
 
 #### Ongoing
-- [X] Gemini access
+- [ ] DeepSeek access
